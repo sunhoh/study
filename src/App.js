@@ -6,7 +6,7 @@ import Display from './components/Display';
 import Views from './components/Views';
 import Comments from './components/Comments';
 import Todo from './components/Todo';
-import Promise from './async/promise';
+import Async from './async/async';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Subscribers />
         <Views />
         <Display />
-        <Promise />
+        <Async />
       </div>
     </Provider>
   );

@@ -5,7 +5,7 @@ import { fetchComments } from '../redux';
 const Comments = ({ fetchComments, loading, comments }) => {
   useEffect(() => {
     fetchComments();
-  }, []);
+  });
 
   const commentsItems = loading ? (
     <div>is loading....</div>
