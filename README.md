@@ -5,7 +5,7 @@
 1. practice
 
 - 바닐라 JS나 비동기 연습
-- library: React
+- library: React, Redux
 
 <br/>
 
@@ -16,3 +16,6 @@
 
 <br/>
 
+3. typescript 
+
+ - ts 학습
