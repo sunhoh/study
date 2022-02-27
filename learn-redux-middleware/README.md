@@ -4,7 +4,6 @@
 
 1. 프레젠테이셔널 컴포넌트와 컨테이너 컴포넌트를 분리.
 
-
 2. 리덕스 관련 코드 작성하기
 Ducks Pattern 사용. (Action type, Action creator, reducer를 기능 별로 한 파일 안에 작성하는 방식.)
 

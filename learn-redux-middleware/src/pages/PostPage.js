@@ -1,8 +1,11 @@
 import React from 'react';
-import PostContainer from '../components/PostList';
+import PostContainer from '../components/PostContainer';
+
 
 function PostPage({ match }) {
+  
   const { id } = match.params; // URL 파라미터 조회하기
+  console.log('@@@',match.params)
 
   // URL 파라미터 값은 문자열이기 때문에 parseInt 를 사용하여 숫자로 변환해주어야 합니다.
   return <PostContainer postId={parseInt(id, 10)} />;
