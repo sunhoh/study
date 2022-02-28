@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.0",
     "@types/react-redux": "^7.1.22",
     "cra-template-typescript-redux": "0.3.13",
     "react": "^17.0.2",
