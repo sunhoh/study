@@ -15,8 +15,6 @@ export const decreaseAsync =()=> dispatch => {
     setTimeout(()=> dispatch(decrease()), 1000)
 };
 
-
-
 // initialState
 const initialState = 0;
 

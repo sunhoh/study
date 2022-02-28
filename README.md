@@ -16,14 +16,14 @@
 
 <br/>
 
-<br/>
-
 3. redux-middleware 
 
  - redux-logger, DevTools확인
  - redux-thunk에 대한 학습 thunk로 프로미스 다루기
  - library: React, Redux, redux-logger, redux-thun
 
-4. typescript 
+<br/>
 
- - ts 학습
+4. react-redux-ts
+
+ - library: React, Redux, TypeScript

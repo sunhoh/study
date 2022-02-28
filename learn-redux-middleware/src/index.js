@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import {BrowserRouter, Router } from 'react-router-dom';
 import { Provider } from 'react-redux'
-import store from './redux/store'
+import store, { customHistory } from './redux/store'
 
 
 ReactDOM.render(
   <BrowserRouter>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <Router history={customHistory}>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </Router>
   </BrowserRouter>,
   document.getElementById('root')
 );
-
-

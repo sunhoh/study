@@ -14,7 +14,7 @@ Ducks Pattern 사용. (Action type, Action creator, reducer를 기능 별로 한
 5. Redux DevTools Chrome Extention + redux-devtools-extension 설치.
 
 6. thunk 모듈화하고 thunk에서 라우터 연동하기 
-재활용성과 가독성을 위해서 모듈화 
+재활용성과 가독성을 위해서 모듈화, 라우팅까지~
 
 7. json-server 
 백엔드 없이 더미데이터를 만들어서 이용하자 
