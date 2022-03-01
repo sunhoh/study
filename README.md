@@ -25,5 +25,5 @@
 <br/>
 
 4. react-redux-ts
-
- - library: React, Redux, TypeScript
+    리덕스 툴킷 
+ - library: React, Redux, Redux-toolkit, TypeScript
